@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0d0d0d;
+  color: #fff;
+}
+
+header {
+  background: #000;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: #00ff88;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.section {
+  padding: 40px 20px;
+}
+
+.signal-card {
+  background: #111;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,255,136,0.2);
+}
+
+.buy {
+  color: #00ff88;
+  font-weight: bold;
+}
+
+.sell {
+  color: #ff4444;
+  font-weight: bold;
+}
+
+.price-box {
+  background: #111;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+
+footer {
+  background: #000;
+  padding: 20px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+@media (max-width: 600px) {
+  nav {
+    display: none;
+  }
+}
